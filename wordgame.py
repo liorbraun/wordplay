@@ -1,4 +1,4 @@
-from Functions import *   #todo pot try except in functions logic
+from Functions import *  # todo pot try except in functions logic
 
 listofplayers = []
 
@@ -11,7 +11,7 @@ def main():
             playername = input("enter player name : ")
             word = " "
             opponent = " "
-            addplayer(playername , word , opponent )
+            addplayer(playername, word, opponent)
 
         getrandomword()
         getopponent()
@@ -22,7 +22,6 @@ def main():
     except Exception as e:
         print("error ", e)
 
+
 if __name__ == "__main__":
- main()
-
-
+    main()
